@@ -1,0 +1,42 @@
+{
+  "development": {
+    "username": "root",
+    "password": null,
+    "database": "graddata",
+    "host": "host.docker.internal",
+    "dialect": "mysql",
+    "operatorsAliases": 0
+  },
+  "docker": {
+    "username": "root",
+    "password": null,
+    "database": "graddata",
+    "host": "host.docker.internal",
+    "dialect": "mysql",
+    "operatorsAliases": 0
+  },
+  "aws-dev": {
+    "username": "users",
+    "password": "Graduate-fairs1234",
+    "database": "Test",
+    "host": "gradappserver.crzerayd7iuc.eu-west-1.rds.amazonaws.com",
+    "dialect": "mysql",
+    "operatorsAliases": 0
+  },
+  "local-dev": {
+    "username": "root",
+    "password": "",
+    "database": "graduateapp",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": 0
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": 0
+  }
+}
